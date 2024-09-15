@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+
+.container {
+    padding: 50px 120px 0px 120px;
+    align-items: center;
+    color: #8C6239;
+}
+
+.payment-box h1 {
+    align-items: center;
+    font-weight: 700;
+    font-size: 56px;
+    color: #8C6239;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan{
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+.plan-details{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+
+}
+
+.formGroup input {
+    width: 400px;
+    color: #8C6239;
+    border: 1px solid #F2E9D5;
+   
+    background-color: #F2E9D5;
+    justify-content: left;
+
+    outline: none;
+    display: flex;
+    flex-direction: column;
+
+
+    width: 400px;
+    padding: 15px 30px;
+    text-align: justify;
+    letter-spacing: 4px;
+
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonGroup{
+    margin: 20px 0px 50px 0px; 
+    display: flex;
+    justify-content: space-between;  
+}
+.buttonGroup .cancel-button{
+   font-size: 25px;  
+   color: #8C6239;
+   padding: 15px;
+   background-color: #F2E9D5; 
+   border-radius: 8px;
+}
+.buttonGroup .confirm-button{
+    font-size: 25px; 
+    color: #8C6239; 
+    padding: 15px;
+    background-color: #F2E9D5;
+    border-radius: 8px;
+} 
+
+
+

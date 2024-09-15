@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+.navbar .container-fluid {
+    /* margin: 0px 50px; */
+    padding: 20px 50px;
+}
+
+.navbar .container-fluid img {
+    cursor: pointer;
+}
+
+.mainSection {
+    margin: 70px 100px 0px 100px;
+}
+
+.mainSection .infoSection .profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainSection .infoSection .profile .profileImage img {
+    height: 300px;
+    width: 300px;
+}
+
+.mainSection .infoSection .profile .profileImage h2 {
+    color: #8C6239;
+    text-align: center;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.mainSection .infoSection .profile .detial {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    width: 100%;
+}
+
+.mainSection .infoSection .profile .detial p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #8C6239;
+}
+
+.mainSection .infoSection .activity{
+
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    color: #8C6239;
+}
+
+.collection h1{
+    margin-top: 30px;
+    color: #8C6239;
+    font-size: xx-large;
+}
+.collection .collectionList{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #8C6239;
+}
