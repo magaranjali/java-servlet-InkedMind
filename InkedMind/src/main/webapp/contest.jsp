@@ -9,23 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
     <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Inked Mind</title>
+    <link rel="stylesheet" href="css/contest.css">
+    <title>INKED MIND</title>
 </head>
 
 <body>
-  
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-
-
             <a class="logo" href="#">
                 <img src="images/logo.png" alt="">
             </a>
@@ -34,12 +25,10 @@
                 <div class="navLinks">
                     <div>
                         <ul>
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="Home">Home</a></li>
                             <li><a href="Explore">Explore</a></li>
-                            <li><a href="Contest">Contest</a></li>
+                            <li class="active"><a href="Contest">Contest</a></li>
                             <li><a href="Subscribe">Subscribe</a></li>
-                            <li><a href="Find">Find</a></li>
-                            
                         </ul>
                     </div>
 
@@ -53,26 +42,63 @@
                 </div>
 
                 <div class="profileIcon">
-                    <a href="Profile">
+                    <a href="profile.html">
                         <img src="images/smallProfile.png" alt="">
-                        
                     </a>
                 </div>
             </div>
         </div>
     </nav>
-<div>
-<h1>Welcome, ${user}!</h1> </div>
 
+    <div class="mainSection">
+        <div style="color: #8C6239; font-size: 64px; text-align: center; font-family: poppins; font-weight: 700; word-wrap: break-word">Contest Info</div>
+<br>
+ <br>       
+        <div class="notice-table">
+            <div class="tier">
+                <div >
+                    <h1>Contest Notice</h1>
+                    <ul>
+                        <li>Find details on how to participate and win.</li>
+                    </ul>
+                </div>
+                <a href="Notice"> <button>View</button></a>
+            </div>
 
-    <div class="hero">
-        <img src="images/background.png" alt="" class="img-fluid">
-        <div class="contain">
-            <h1>Unleash Poetry</h1>
-            <p>Dive into a world of words, rhythm and emotions. Let your verses dance on the stage of Inked Mind.</p>
+            <div class="tier">
+                <div>
+                    <h1>Rules and Guidelines</h1>
+                    <ul>
+                        <li>Review the rules to ensure your entry qualifies.</li>
+                    </ul>
+                </div>
+                <a href="Rule"> <button>View</button></a>
+            </div>
+            <div class="tier">
+                <div>
+                    <h1>Past Contest</h1>
+                    <ul>
+                        <li>See the winners and highlights from previous contests.</li>
+                    </ul>
+                </div>
+               <a href="Past"> <button>View</button></a>
+            </div>
+            <div class="tier">
+                <div>
+                    <h1>Upcoming Events</h1>
+                    <ul>
+                        <li>Get a sneak peek at future contests and events.</li>
+                    </ul>
+                </div>
+               <a href="Upcoming"> <button>View</button></a>
+            </div>
         </div>
-
     </div>
+
+
+
+
+    
 
     <footer class="footer">
         <div class="container-fluid">
@@ -112,6 +138,7 @@
 
 
     <script src="https://kit.fontawesome.com/69628762a8.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

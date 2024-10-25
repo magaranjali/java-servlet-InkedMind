@@ -19,13 +19,13 @@
     <nav class="navbar fixed-top">
         <div class="container-fluid">
             <div class="back">
-                <a href="home.html">
+                <a href="Home">
                     <img src="icons/backIcon.png" alt="">
                 </a>
             </div>
 
             <div class="logout">
-                <a href="login.html">
+                <a href="Login">
                     <img src="icons/logoutIcon.png" alt="" srcset="">
                 </a>
             </div>
@@ -58,8 +58,10 @@
 
             <div class="activity">
                 <div class="write">
+                	<a href="Write">
                     <img src="icons/pen.png" alt="">
-                    <p>Write</p>
+                    Write
+                	</a>
                 </div>
 
                 <div class="liked">
